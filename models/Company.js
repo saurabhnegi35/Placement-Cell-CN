@@ -1,21 +1,24 @@
-const mongoose=require('mongoose');
+const mongoose = require("mongoose");
 
-const companySchema=new mongoose.Schema({
-    company_name:{
-        type:String,
-        required:true,
-        unique:true
+const companySchema = new mongoose.Schema(
+  {
+    company_name: {
+      type: String,
+      required: true,
+      unique: true,
     },
-    interview_date:{
-        type:String,
-        required:true
+    interview_date: {
+      type: String,
+      required: true,
     },
-    work_location:{
-        type:String,
-        required:true
+    work_location: {
+      type: String,
+      required: true,
     },
-},{timestamps:true});
+  },
+  { timestamps: true }
+);
 
-const Company=mongoose.model('Company',companySchema);
+const Company = mongoose.model("Company", companySchema);
 
-module.exports=Company;
+module.exports = Company;

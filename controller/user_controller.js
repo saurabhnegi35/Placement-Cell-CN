@@ -56,6 +56,7 @@ module.exports.dashboard = function (req, res) {
       return res.render("Dashboard", {
         title: "Dashboard",
         allStudent: allStudent,
+
         allCompany: allCompany,
       });
     });

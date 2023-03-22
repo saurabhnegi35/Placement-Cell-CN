@@ -8,6 +8,7 @@ module.exports.downloadCSV = function (req, res) {
   InterviewDB.find()
     .populate("student")
     .populate("company")
+
     .exec(function (err, allInterviews) {
       if (err) {
         console.log(
