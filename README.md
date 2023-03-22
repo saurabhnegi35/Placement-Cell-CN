@@ -1,8 +1,8 @@
-# placement-cell-webAPP
+# Placement Cell Web Application (Team Career Camp)
 
-1. this is pleasement cell web application it is created for manage interview of students and allocate student to companies for interview
+## About
 
-##Functionality
+The Placement Cell Application is a Full Stack Application built using MongoDB, ExpressJS, NodeJS, EJS, Express Partials-Layouts .This project is basically used for the purpose of assigning students to the interview slots of the incoming companies for the visit and also downloading their data.
 
 1. User can SignUp/Signin
 2. Add Student
