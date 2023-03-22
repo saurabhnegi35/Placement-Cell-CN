@@ -27,5 +27,6 @@ The Placement Cell Application is a Full Stack Application built using MongoDB, 
 9. express-session (for create,incript and store cookie)
 10. connect-mongo (for storing cookie inside db)
 
-<!-- ## This Site is hosted on cyclic.sh
-1. Access link "https://jolly-lamb-outfit.cyclic.app/" -->
+## This Site is hosted on Render
+
+1. Live Link "https://placement-cell-utr7.onrender.com/"
