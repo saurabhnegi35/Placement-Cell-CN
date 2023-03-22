@@ -1,0 +1,40 @@
+#form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../images/student.jpg");
+  background-size: cover;
+  /* filter: blur(3px); */
+  /* -webkit-filter: blur(8px); */
+}
+
+#form-container > div {
+  width: 50%;
+  display: flex;
+  box-shadow: 0px 0px 9px 4px gray;
+  align-items: center;
+  padding: 40px;
+  flex-direction: column;
+  background-image: url("../images/signin.jpg");
+  background-size: cover;
+  /* filter: blur(3px); */
+  /* background-blend-mode: color-dodge; */
+}
+
+#form-container > div > h3 {
+  color: rgb(70, 66, 66);
+  font-size: 35px;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#form-container div form {
+  width: 70%;
+}
+
+.form-btn {
+  padding: 10px 20px;
+  margin: 5% 0% 0% 40%;
+}
